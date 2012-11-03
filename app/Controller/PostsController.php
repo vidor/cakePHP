@@ -1,5 +1,7 @@
 <?php
 class PostsController extends AppController {
+	public $scaffold = 'admin';
+
 	
 	public $helpers = array("Html", 'Form', 'Session');
 	public $components = array('Session');
